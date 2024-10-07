@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>File Analyzer</h1>
+            <p>Select two files for analysis</p>
+        </div>
+
+        <div class="file-selector">
+            <div class="file-input">
+                <label for="file1">Select File 1:</label>
+                <input type="file" id="file1" class="file-input-field">
+            </div>
+            <div class="file-input">
+                <label for="file2">Select File 2:</label>
+                <input type="file" id="file2" class="file-input-field">
+            </div>
+        </div>
+
+        <div class="drag-drop">
+            <p>Drag & Drop Files Here</p>
+        </div>
+
+        <button class="analyze-btn">Analyze</button>
+
+        <div class="status">
+            <p>Status: <span id="status-text">Waiting for files...</span></p>
+        </div>
+
+        <div class="results">
+            <h3>Results</h3>
+            <div class="results-box" id="results-box">
+                <p>Analysis Results Here</p>
+            </div>
+        </div>
+
+        <button class="download-btn">Download Results</button>
+    </div>
+</body>
+</html>

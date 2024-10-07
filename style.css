@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 1000px;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.file-selector {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.file-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.file-input-field {
+    margin-top: 5px;
+}
+
+.drag-drop {
+    border: 2px dashed #ccc;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #888;
+    font-size: 14px;
+}
+
+.analyze-btn {
+    display: block;
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.analyze-btn:hover {
+    background-color: #218838;
+}
+
+.status {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.results {
+    margin-bottom: 20px;
+}
+
+.results h3 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.results-box {
+    border: 1px solid #ccc;
+    height: 100px;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.download-btn {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
